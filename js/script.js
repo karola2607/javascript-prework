@@ -23,6 +23,7 @@ function buttonClicked(argButtonName) {
 	    printMessage('Nie znam ruchu o id ' + argMoveId + '. Zakładam, że chodziło o "kamień".');
 	    return 'kamień';
 	  }
+	 }
 
 	function displayResult(argPlayerMove, argComputerMove) {
 	  console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
@@ -48,7 +49,7 @@ function buttonClicked(argButtonName) {
 	computerMove = getMoveName(randomNumber);
 	console.log('ruch komputera to: ' + computerMove);
 	displayResult(playerMove, computerMove);
-	}
+	
 }
 
 buttonTest.addEventListener('click', function(){ buttonClicked('test'); });
