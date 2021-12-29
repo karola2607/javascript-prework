@@ -1,1 +1,1 @@
-# javascript-prework
+# Bootcamp Kodilla Project
